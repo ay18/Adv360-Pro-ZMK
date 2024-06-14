@@ -68,11 +68,11 @@
 
         something_new {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans    &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans    &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans    &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans    &kp UP_ARROW  &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
+&trans  &trans  &trans     &trans  &trans  &trans  &trans                                      &trans  &trans                &trans                 &trans            &trans             &trans  &trans
+&trans  &trans  &trans     &trans  &trans  &trans  &trans                                      &trans  &trans                &kp MINUS              &kp EQUAL         &trans             &trans  &trans
+&trans  &trans  &kp GRAVE  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans
+&trans  &trans  &trans     &trans  &trans  &trans                  &trans      &trans                  &trans                &trans                 &kp UP_ARROW      &trans             &trans  &trans
+&trans  &trans  &trans     &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                        &kp LEFT               &kp DOWN          &kp RIGHT          &trans  &trans
             >;
         };
     };
