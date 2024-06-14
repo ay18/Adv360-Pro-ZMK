@@ -71,7 +71,7 @@
 &trans  &trans  &trans     &trans  &trans  &trans  &trans                                      &trans  &trans                &trans                 &trans            &trans             &trans  &trans
 &trans  &trans  &trans     &trans  &trans  &trans  &trans                                      &trans  &trans                &kp EQUAL              &kp MINUS         &trans             &trans  &trans
 &trans  &trans  &kp GRAVE  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans
-&trans  &trans  &trans     &trans  &trans  &trans                  &trans      &trans                  &trans                &trans                 &kp UP_ARROW      &trans             &trans  &trans
+&trans  &trans  &trans     &trans  &trans  &trans                  &trans      &trans                  &trans                &trans                 &kp UP_ARROW      &kp QUESTION       &trans  &trans
 &trans  &trans  &trans     &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                        &kp LEFT               &kp DOWN          &kp RIGHT          &trans  &trans
             >;
         };
