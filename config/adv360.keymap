@@ -40,9 +40,9 @@
             bindings = <
 &kp GRAVE  &kp N1  &kp N2     &kp N3    &kp N4    &kp N5  &mo 1                                                          &mo 2        &kp N6  &kp N7    &kp N8     &kp N9     &kp N0    &none
 &kp TAB    &kp Q   &kp W      &kp E     &kp R     &kp T   &none                                                          &none        &kp Y   &kp U     &kp I      &kp O      &kp P     &kp BSLH
-&kp ESC    &kp A   &kp S      &kp D     &kp F     &kp G   &none        &none    &none      &none          &kp ENTER      &none        &kp H   &kp J     &kp K      &kp L      &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z   &kp X      &kp C     &kp V     &kp B                         &none      &kp PAGE_UP                                &kp N   &kp M     &kp COMMA  &kp DOT    &kp FSLH  &kp RSHFT
-&none      &none   &kp LCTRL  &kp LALT  &kp LCMD          &lt 3 SPACE  &kp DEL  &none      &kp PAGE_DOWN  &kp BACKSPACE  &lt 3 SPACE          &kp RCMD  &kp RALT   &kp RCTRL  &none     &none
+&kp ESC    &kp A   &kp S      &kp D     &kp F     &kp G   &none            &none    &none      &none          &none      &none        &kp H   &kp J     &kp K      &kp L      &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z   &kp X      &kp C     &kp V     &kp B                             &none      &kp PAGE_UP                            &kp N   &kp M     &kp COMMA  &kp DOT    &kp FSLH  &kp RSHFT
+&none      &none   &kp LCTRL  &kp LALT  &kp LCMD          &lt 3 BACKSPACE  &kp DEL  &none      &kp PAGE_DOWN  &kp ENTER  &lt 3 SPACE          &kp RCMD  &kp RALT   &kp RCTRL  &none     &none
             >;
         };
 
@@ -69,7 +69,7 @@
         something_new {
             bindings = <
 &trans  &trans  &trans     &trans  &trans  &trans  &trans                                      &trans  &trans                &trans                 &trans            &trans             &trans  &trans
-&trans  &trans  &trans     &trans  &trans  &trans  &trans                                      &trans  &trans                &kp MINUS              &kp EQUAL         &trans             &trans  &trans
+&trans  &trans  &trans     &trans  &trans  &trans  &trans                                      &trans  &trans                &kp EQUAL              &kp MINUS         &trans             &trans  &trans
 &trans  &trans  &kp GRAVE  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans
 &trans  &trans  &trans     &trans  &trans  &trans                  &trans      &trans                  &trans                &trans                 &kp UP_ARROW      &trans             &trans  &trans
 &trans  &trans  &trans     &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                        &kp LEFT               &kp DOWN          &kp RIGHT          &trans  &trans
