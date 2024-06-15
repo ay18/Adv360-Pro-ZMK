@@ -78,11 +78,11 @@
 
         right_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans                &trans                    &trans                     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp LC(LA(NUMBER_0))  &kp LC(LA(MINUS))         &kp LC(LA(EQUAL))          &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LG(LA(P))         &kp LG(LA(LEFT_BRACKET))  &kp LG(LA(RIGHT_BRACKET))  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &kp LA(LC(P))         &kp LA(LC(LEFT_BRACKET))  &kp LA(LC(RIGHT_BRACKET))  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &kp LA(LG(LEFT))      &trans                    &kp LA(LG(RIGHT))          &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans            &trans                &trans                    &trans                     &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans            &kp LC(LA(NUMBER_0))  &kp LC(LA(MINUS))         &kp LC(LA(EQUAL))          &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LC(LA(LEFT))  &kp LG(LA(P))         &kp LG(LA(LEFT_BRACKET))  &kp LG(LA(RIGHT_BRACKET))  &kp LC(LA(RIGHT))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans            &kp LA(LC(P))         &kp LA(LC(LEFT_BRACKET))  &kp LA(LC(RIGHT_BRACKET))  &trans             &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                    &kp LA(LG(LEFT))      &trans                    &kp LA(LG(RIGHT))          &trans             &trans
             >;
         };
 
