@@ -78,11 +78,11 @@
 
         left_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans        &trans            &trans         &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans        &trans            &trans         &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans        &trans            &trans         &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans        &kp LA(UP_ARROW)  &trans         &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &kp LA(LEFT)  &kp LA(DOWN)      &kp LA(RIGHT)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans        &trans         &trans                                      &trans  &trans  &trans        &trans            &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans        &trans         &trans                                      &trans  &trans  &trans        &trans            &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &kp LG(LEFT)  &kp LG(RIGHT)  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans        &trans            &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans        &trans                         &trans      &trans                  &trans  &trans        &kp LA(UP_ARROW)  &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans      &trans  &trans  &trans          &kp LA(LEFT)  &kp LA(DOWN)      &kp LA(RIGHT)  &trans  &trans
             >;
         };
 
