@@ -76,7 +76,7 @@
             >;
         };
 
-        right_layer {
+        right_rectangle {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans            &trans                &trans                    &trans                     &trans             &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans            &kp LC(LA(NUMBER_0))  &kp LC(LA(MINUS))         &kp LC(LA(EQUAL))          &trans             &trans
