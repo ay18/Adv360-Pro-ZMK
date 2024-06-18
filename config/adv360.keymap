@@ -37,7 +37,7 @@
         compatible = "zmk,combos";
 
         window_control {
-            bindings = <&mo 0>;
+            bindings = <&mo 5>;
             key-positions = <32 31>;
         };
     };
