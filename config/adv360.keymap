@@ -33,6 +33,15 @@
     macros {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        window_control {
+            bindings = <&mo 5>;
+            key-positions = <32 31>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -86,7 +95,7 @@
             >;
         };
 
-        right {
+        window_control {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans            &trans                &kp LG(LC(C))             &trans                     &trans             &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans            &kp LC(LA(NUMBER_0))  &kp LC(LA(MINUS))         &kp LC(LA(EQUAL))          &trans             &trans
