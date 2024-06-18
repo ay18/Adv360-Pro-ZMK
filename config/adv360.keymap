@@ -38,12 +38,7 @@
 
         window_control {
             bindings = <&mo 6>;
-            key-positions = <65 32>;
-        };
-
-        numpad {
-            bindings = <&mo 2>;
-            key-positions = <65 31>;
+            key-positions = <32 65>;
         };
     };
 
