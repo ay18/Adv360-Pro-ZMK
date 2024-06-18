@@ -37,7 +37,7 @@
         compatible = "zmk,combos";
 
         window_control {
-            bindings = <&mo 5>;
+            bindings = <&mo 0>;
             key-positions = <32 31>;
         };
     };
@@ -51,7 +51,7 @@
 &kp TAB    &kp Q      &kp W               &kp E           &kp R       &kp T    &none                                                                 &none        &kp Y    &kp U            &kp I            &kp O        &kp P          &kp BSLH
 &kp ESC    &kp A      &hm LEFT_CONTROL S  &hm LEFT_ALT D  &hm LGUI F  &lt 1 G  &none            &none         &none      &none          &none        &none        &lt 1 H  &hm RIGHT_GUI J  &hm RIGHT_ALT K  &hm RCTRL L  &kp SEMICOLON  &kp SQT
 &kp LSHFT  &kp Z      &kp X               &kp C           &kp V       &kp B                                   &none      &kp PAGE_UP                              &kp N    &kp M            &kp COMMA        &kp DOT      &kp FSLH       &kp RSHFT
-&kp LCTRL  &kp LCTRL  &mo 1               &kp LALT        &kp LGUI             &lt 3 BACKSPACE  &lt 4 DELETE  &none      &kp PAGE_DOWN  &lt 5 ENTER  &lt 3 SPACE           &kp RIGHT_GUI    &kp RIGHT_ALT    &mo 1        &kp RCTRL      &kp RCTRL
+&kp LCTRL  &kp LCTRL  &mo 1               &kp LALT        &kp LGUI             &lt 6 BACKSPACE  &lt 5 DELETE  &none      &kp PAGE_DOWN  &lt 0 ENTER  &lt 6 SPACE           &kp RIGHT_GUI    &kp RIGHT_ALT    &mo 1        &kp RCTRL      &kp RCTRL
             >;
         };
 
@@ -75,7 +75,7 @@
             >;
         };
 
-        shared {
+        symbols {
             bindings = <
 &trans  &kp C_BRI_DN  &kp C_BRI_UP                  &trans                         &kp LG(LC(SPACE))           &trans     &trans                                             &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT       &kp C_MUTE           &kp C_VOL_DN   &kp C_VOLUME_UP    &trans
 &trans  &trans        &kp AT_SIGN                   &kp LEFT_BRACKET               &kp RIGHT_BRACKET           &trans     &trans                                             &trans          &kp AMPERSAND     &kp UNDERSCORE   &kp PLUS             &kp ASTERISK   &trans             &trans
@@ -85,13 +85,13 @@
             >;
         };
 
-        left {
+        numpad {
             bindings = <
-&trans  &trans  &trans  &trans                    &trans                     &trans  &trans                                      &trans  &trans  &trans        &kp SLASH     &kp ASTERISK  &kp MINUS  &trans
-&trans  &trans  &trans  &kp LG(LEFT)              &kp LG(RIGHT)              &trans  &trans                                      &trans  &trans  &kp N7        &kp N8        &kp N9        &kp PLUS   &trans
-&trans  &trans  &trans  &kp LG(LS(LEFT_BRACKET))  &kp LG(LS(RIGHT_BRACKET))  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &trans
-&trans  &trans  &trans  &trans                    &trans                     &trans                  &trans      &trans                  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER  &trans
-&trans  &trans  &trans  &trans                    &trans                             &trans  &trans  &trans      &trans  &trans  &trans          &kp NUMBER_0  &kp N0        &kp PERIOD    &kp ENTER  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans        &kp SLASH     &kp ASTERISK  &kp MINUS  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp N7        &kp N8        &kp N9        &kp PLUS   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &kp NUMBER_0  &kp N0        &kp PERIOD    &kp ENTER  &trans
             >;
         };
 
