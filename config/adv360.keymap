@@ -77,11 +77,11 @@
 
         shared {
             bindings = <
-&trans  &kp C_BRI_DN           &kp C_BRI_UP               &trans                         &kp LG(LC(SPACE))           &trans     &trans                                             &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT       &kp C_MUTE           &kp C_VOL_DN            &kp C_VOLUME_UP                &trans
-&trans  &kp AT_SIGN            &kp EXCLAMATION            &kp LEFT_BRACKET               &kp RIGHT_BRACKET           &kp PIPE   &trans                                             &trans          &trans            &kp UNDERSCORE   &kp PLUS             &kp ASTERISK            &kp SLASH                      &trans
-&trans  &hm LSHFT EXCLAMATION  &hm LEFT_CONTROL QUESTION  &hm LEFT_ALT LEFT_PARENTHESIS  &hm LGUI RIGHT_PARENTHESIS  &kp GRAVE  &trans         &trans  &trans      &trans  &trans  &trans          &trans            &hm RMETA MINUS  &hm RIGHT_ALT EQUAL  &hm RCTRL LEFT_BRACKET  &hm RIGHT_SHIFT RIGHT_BRACKET  &trans
-&trans  &kp PERCENT            &kp HASH                   &kp LEFT_BRACE                 &kp RIGHT_BRACE             &kp TILDE                         &trans      &trans                          &trans            &kp LESS_THAN    &kp GREATER_THAN     &kp SLASH               &trans                         &trans
-&trans  &trans                 &trans                     &trans                         &trans                                 &kp BACKSPACE  &trans  &trans      &trans  &trans  &kp SPACE                         &trans           &trans               &trans                  &trans                         &trans
+&trans  &kp C_BRI_DN     &kp C_BRI_UP               &trans                         &kp LG(LC(SPACE))           &trans     &trans                                             &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT       &kp C_MUTE           &kp C_VOL_DN   &kp C_VOLUME_UP    &trans
+&trans  &kp AT_SIGN      &kp EXCLAMATION            &kp LEFT_BRACKET               &kp RIGHT_BRACKET           &kp PIPE   &trans                                             &trans          &kp AMPERSAND     &kp UNDERSCORE   &kp PLUS             &kp ASTERISK   &trans             &trans
+&trans  &kp EXCLAMATION  &hm LEFT_CONTROL QUESTION  &hm LEFT_ALT LEFT_PARENTHESIS  &hm LGUI RIGHT_PARENTHESIS  &kp GRAVE  &trans         &trans  &trans      &trans  &trans  &trans          &trans            &hm RMETA MINUS  &hm RIGHT_ALT EQUAL  &hm RCTRL SQT  &kp DOUBLE_QUOTES  &trans
+&trans  &kp PERCENT      &kp HASH                   &kp LEFT_BRACE                 &kp RIGHT_BRACE             &kp TILDE                         &trans      &trans                          &trans            &kp LESS_THAN    &kp GREATER_THAN     &kp SLASH      &kp COLON          &trans
+&trans  &trans           &trans                     &trans                         &trans                                 &kp BACKSPACE  &trans  &trans      &trans  &trans  &kp SPACE                         &trans           &trans               &trans         &trans             &trans
             >;
         };
 
