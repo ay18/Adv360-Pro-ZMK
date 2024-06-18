@@ -38,7 +38,7 @@
 
         window_control {
             bindings = <&mo 6>;
-            key-positions = <31 65>;
+            key-positions = <65 32>;
         };
 
         numpad {
