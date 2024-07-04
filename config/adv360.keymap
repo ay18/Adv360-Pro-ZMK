@@ -50,11 +50,11 @@
 
         navigation {
             bindings = <
-&trans  &trans  &trans                    &trans                             &trans                          &trans  &trans                                  &trans  &none   &none     &none         &none      &none   &trans
-&trans  &trans  &kp LG(UP_ARROW)          &kp LG(LEFT)                       &kp LG(RIGHT)                   &trans  &trans                                  &trans  &none   &none     &kp UP_ARROW  &none      &none   &none
-&trans  &trans  &hm LCTRL LG(DOWN_ARROW)  &hm LEFT_ALT LS(LG(LEFT_BRACKET))  &hm LCMD LS(LG(RIGHT_BRACKET))  &trans  &trans  &none  &none      &none  &none  &trans  &none   &kp LEFT  &kp DOWN      &kp RIGHT  &none   &none
-&trans  &trans  &trans                    &kp LA(SEMICOLON)                  &kp LA(SQT)                     &trans                 &none      &none                 &trans  &none     &none         &none      &none   &none
-&trans  &trans  &trans                    &trans                             &trans                                  &none   &none  &none      &none  &none  &none           &none     &trans        &none      &trans  &trans
+&none  &none  &none                     &none                              &none                           &none  &none                                  &none  &none  &none     &none         &none      &none  &none
+&none  &none  &kp LG(UP_ARROW)          &kp LG(LEFT)                       &kp LG(RIGHT)                   &none  &none                                  &none  &none  &none     &kp UP_ARROW  &none      &none  &none
+&none  &none  &hm LCTRL LG(DOWN_ARROW)  &hm LEFT_ALT LS(LG(LEFT_BRACKET))  &hm LCMD LS(LG(RIGHT_BRACKET))  &none  &none  &none  &none      &none  &none  &none  &none  &kp LEFT  &kp DOWN      &kp RIGHT  &none  &none
+&none  &none  &none                     &kp LA(SEMICOLON)                  &kp LA(SQT)                     &none                &none      &none                &none  &none     &none         &none      &none  &none
+&none  &none  &none                     &none                              &none                                  &none  &none  &none      &none  &none  &none         &none     &none         &none      &none  &none
             >;
         };
 
