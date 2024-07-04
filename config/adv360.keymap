@@ -100,11 +100,11 @@
 
         window_control {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans            &trans                &kp LG(LC(C))             &trans                     &trans             &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans            &kp LC(LA(NUMBER_0))  &kp LC(LA(MINUS))         &kp LC(LA(EQUAL))          &trans             &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LC(LA(LEFT))  &kp LG(LA(P))         &kp LG(LA(LEFT_BRACKET))  &kp LG(LA(RIGHT_BRACKET))  &kp LC(LA(RIGHT))  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans            &kp LA(LC(P))         &kp LA(LC(LEFT_BRACKET))  &kp LA(LC(RIGHT_BRACKET))  &trans             &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                    &kp LA(LG(LEFT))      &trans                    &kp LA(LG(RIGHT))          &kp LA(LG(SLASH))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans                &kp LG(LC(C))             &trans                     &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &kp LC(LA(NUMBER_0))  &kp LC(LA(MINUS))         &kp LC(LA(EQUAL))          &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &none  &none      &none  &none  &trans  &kp LC(LA(LEFT))  &kp LG(LA(P))         &kp LG(LA(LEFT_BRACKET))  &kp LG(LA(RIGHT_BRACKET))  &kp LC(LA(RIGHT))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                 &none      &none                 &trans            &kp LA(LC(P))         &kp LA(LC(LEFT_BRACKET))  &kp LA(LC(RIGHT_BRACKET))  &trans             &trans
+&trans  &trans  &trans  &trans  &trans          &none   &none  &none      &none  &none  &none                     &kp LA(LG(LEFT))      &trans                    &kp LA(LG(RIGHT))          &kp LA(LG(SLASH))  &trans
             >;
         };
     };
