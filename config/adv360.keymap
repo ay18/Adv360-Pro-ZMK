@@ -10,11 +10,11 @@
       #include "version.dtsi"
       #ifndef VERSION_MACRO
 
-        arrow_symbol_stack: arrow_symbol_stack {
+        arrow_symbol: arrow_symbol {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&mo 5 &mo 6>;
-            label = "ARROW_SYMBOL_STACK";
+            label = "ARROW_SYMBOL";
         };
 
         #endif
@@ -50,7 +50,7 @@
         arrow_symbol_stack_bhvr: arrow_symbol_stack_bhvr {
             compatible = "zmk,behavior-hold-tap";
             label = "ARROW_SYMBOL_STACK_BHVR";
-            bindings = <&arrow_symbol_stack>, <&kp>;
+            bindings = <&arrow_symbol>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
