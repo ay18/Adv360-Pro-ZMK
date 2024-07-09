@@ -62,7 +62,7 @@
 &kp TAB    &kp Q         &kp W    &kp E        &kp R        &kp T   &none                                                                 &none        &kp Y   &kp U        &kp I        &kp O         &kp P            &kp BSLH
 &kp ESC    &hml LCTRL A  &lt 4 S  &hml LALT D  &hml LGUI F  &kp G   &none            &none         &none      &none          &none        &none        &kp H   &hmr RCMD J  &hmr RALT K  &lt 4 L       &hmr RCTRL SEMI  &kp SQT
 &kp LSHFT  &kp Z         &kp X    &kp C        &kp V        &kp B                                  &none      &kp PAGE_UP                              &kp N   &kp M        &kp COMMA    &kp DOT       &kp FSLH         &kp RSHFT
-&none      &none         &none    &none        &none                &lt 6 BACKSPACE  &lt 2 DELETE  &none      &kp PAGE_DOWN  &lt 7 ENTER  &lt 6 SPACE          &kp LEFT     &kp DOWN     &kp UP_ARROW  &kp RIGHT        &none
+&none      &none         &none    &none        &none                &lt 6 BACKSPACE  &lt 2 DELETE  &none      &kp PAGE_DOWN  &lt 7 ENTER  &lt 1 SPACE          &kp LEFT     &kp DOWN     &kp UP_ARROW  &kp RIGHT        &none
             >;
         };
 
