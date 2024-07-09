@@ -17,7 +17,7 @@
             bindings = <&kp RET>;
         };
 
-        arrow_symbol_stack: arrow_symbol_stack {
+        arrow_symbol: arrow_symbol_stack {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&mo 6 &mo 5>;
@@ -57,7 +57,7 @@
         arrow_symbol_stack_ht: arrow_symbol_stack_ht {
             compatible = "zmk,behavior-hold-tap";
             label = "ARROW_SYMBOL_STACK_HT";
-            bindings = <&arrow_symbol_stack>, <&kp>;
+            bindings = <&arrow_symbol>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
