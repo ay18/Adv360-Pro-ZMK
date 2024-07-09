@@ -45,11 +45,11 @@
     combos { compatible = "zmk,combos"; };
 
     macros {
-        arr_sym: symbols {
+        arr_sym: arr_sym {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&mo 6 &mo 5>;
-            label = "SYMBOLS";
+            label = "ARROW_SYMBOLS";
         };
     };
 
