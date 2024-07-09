@@ -44,6 +44,15 @@
 
     combos { compatible = "zmk,combos"; };
 
+    macros {
+        arr_sym: arr_sym {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mo 5 &mo 7>;
+            label = "ARR_SYM";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
