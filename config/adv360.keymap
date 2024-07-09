@@ -118,11 +118,11 @@
 
         symbols {
             bindings = <
-&none  &kp C_BRI_DN  &kp C_BRI_UP     &none                 &kp LG(LC(SPACE))      &none      &none                                  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT      &kp C_MUTE        &kp C_VOL_DN  &kp C_VOLUME_UP    &none
-&none  &none         &kp AT_SIGN      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE   &none                                  &none           &kp AMPERSAND     &kp UNDERSCORE  &kp PLUS          &kp ASTERISK  &none              &none
-&none  &kp CARET     &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE  &none  &none  &none      &none  &none  &none           &kp COLON         &kp MINUS       &kp EQUAL         &kp SQT       &kp DOUBLE_QUOTES  &none
-&none  &kp HASH      &kp PERCENT      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE                &none      &none                         &kp DOLLAR        &kp LESS_THAN   &kp GREATER_THAN  &kp QUESTION  &kp SLASH          &none
-&none  &none         &none            &none                 &none                             &none  &none  &none      &none  &none  &none                             &none           &none             &none         &none              &none
+&none  &kp C_BRI_DN      &kp C_BRI_UP  &none                       &kp LG(LC(SPACE))            &none      &none                                  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT       &kp C_MUTE        &kp C_VOL_DN  &kp C_VOLUME_UP    &none
+&none  &none             &kp AT_SIGN   &kp LEFT_BRACKET            &kp RIGHT_BRACKET            &kp PIPE   &none                                  &none           &kp AMPERSAND     &kp UNDERSCORE   &kp PLUS          &kp ASTERISK  &none              &none
+&none  &hml LCTRL CARET  &kp EXCL      &hml LALT LEFT_PARENTHESIS  &hml LCMD RIGHT_PARENTHESIS  &kp GRAVE  &none  &none  &none      &none  &none  &none           &kp COLON         &hmr RCMD MINUS  &hmr RALT EQUAL   &kp SQT       &kp DOUBLE_QUOTES  &none
+&none  &kp HASH          &kp PERCENT   &kp LEFT_BRACE              &kp RIGHT_BRACE              &kp TILDE                &none      &none                         &kp DOLLAR        &kp LESS_THAN    &kp GREATER_THAN  &kp QUESTION  &kp SLASH          &none
+&none  &none             &none         &none                       &none                                   &none  &none  &none      &none  &none  &none                             &none            &none             &none         &none              &none
             >;
         };
 
