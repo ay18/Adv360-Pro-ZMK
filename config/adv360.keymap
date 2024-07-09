@@ -136,4 +136,13 @@
             >;
         };
     };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        arrows-symbols-stack {
+            if-layers = <6>;
+            then-layer = <5>;
+        };
+    };
 };
