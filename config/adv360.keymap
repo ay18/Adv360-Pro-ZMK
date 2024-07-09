@@ -40,39 +40,20 @@
             hold-trigger-on-release;
             require-prior-idle-ms = <150>;
         };
-
-        arr_sym_bh: arr_sym_bh {
-            compatible = "zmk,behavior-hold-tap";
-            label = "ARR_SYM_BH";
-            bindings = <&arr_sym>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "balanced";
-        };
     };
 
     combos { compatible = "zmk,combos"; };
-
-    macros {
-        arr_sym: arr_sym {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&mo 6 &mo 5>;
-            label = "ARROW_SYMBOLS";
-        };
-    };
 
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&kp GRAVE  &kp N1        &kp N2   &kp N3       &kp N4       &kp N5  &none                                                                 &mo 4     &kp N6  &kp N7       &kp N8       &kp N9   &kp N0           &kp BACKSPACE
-&kp TAB    &kp Q         &kp W    &kp E        &kp R        &kp T   &none                                                                 &none     &kp Y   &kp U        &kp I        &kp O    &kp P            &kp BSLH
-&kp ESC    &hml LCTRL A  &lt 3 S  &hml LALT D  &hml LGUI F  &kp G   &none            &none         &none      &none          &none        &none     &kp H   &hmr RCMD J  &hmr RALT K  &lt 3 L  &hmr RCTRL SEMI  &kp SQT
-&kp LSHFT  &kp Z         &kp X    &kp C        &kp V        &kp B                                  &none      &kp PAGE_UP                           &kp N   &kp M        &kp COMMA    &kp DOT  &kp FSLH         &kp RSHFT
-&none      &none         &none    &none        &none                &lt 5 BACKSPACE  &lt 1 DELETE  &none      &kp PAGE_DOWN  &lt 7 ENTER  &arr_sym          &none        &none        &none    &none            &none
+&kp GRAVE  &kp N1        &kp N2   &kp N3       &kp N4       &kp N5  &none                                                                 &mo 4        &kp N6  &kp N7       &kp N8       &kp N9   &kp N0           &kp BACKSPACE
+&kp TAB    &kp Q         &kp W    &kp E        &kp R        &kp T   &none                                                                 &none        &kp Y   &kp U        &kp I        &kp O    &kp P            &kp BSLH
+&kp ESC    &hml LCTRL A  &lt 3 S  &hml LALT D  &hml LGUI F  &kp G   &none            &none         &none      &none          &none        &none        &kp H   &hmr RCMD J  &hmr RALT K  &lt 3 L  &hmr RCTRL SEMI  &kp SQT
+&kp LSHFT  &kp Z         &kp X    &kp C        &kp V        &kp B                                  &none      &kp PAGE_UP                              &kp N   &kp M        &kp COMMA    &kp DOT  &kp FSLH         &kp RSHFT
+&none      &none         &none    &none        &none                &lt 5 BACKSPACE  &lt 1 DELETE  &none      &kp PAGE_DOWN  &lt 7 ENTER  &lt 6 SPACE          &none        &none        &none    &none            &none
             >;
         };
 
@@ -126,13 +107,13 @@
             >;
         };
 
-        arrows {
+        arr_sym {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans    &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans    &kp UP_ARROW  &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans    &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans    &trans        &trans     &trans  &trans
+&none  &kp C_BRI_DN      &kp C_BRI_UP  &none                       &kp LG(LC(SPACE))            &none      &none                                  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT      &kp C_MUTE        &kp C_VOL_DN  &kp C_VOLUME_UP           &none
+&none  &none             &kp AT_SIGN   &kp LEFT_BRACKET            &kp RIGHT_BRACKET            &kp PIPE   &none                                  &none           &kp AMPERSAND     &kp UNDERSCORE  &kp UP            &kp ASTERISK  &none                     &none
+&none  &hml LCTRL CARET  &kp EXCL      &hml LALT LEFT_PARENTHESIS  &hml LCMD RIGHT_PARENTHESIS  &kp GRAVE  &none  &none  &none      &none  &none  &none           &kp COLON         &kp LEFT        &kp DOWN          &kp RIGHT     &hmr RCTRL DOUBLE_QUOTES  &none
+&none  &kp HASH          &kp PERCENT   &kp LEFT_BRACE              &kp RIGHT_BRACE              &kp TILDE                &none      &none                         &kp DOLLAR        &kp LESS_THAN   &kp GREATER_THAN  &kp QUESTION  &kp SLASH                 &none
+&none  &none             &none         &none                       &none                                   &none  &none  &none      &none  &none  &none                             &none           &none             &none         &none                     &none
             >;
         };
 
