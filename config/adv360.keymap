@@ -10,12 +10,6 @@
       #include "version.dtsi"
       #ifndef VERSION_MACRO
 
-        sym_ver: sym_ver {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp ENTER>;
-            label = "sym_ver";
-        };
 
         #endif
 
@@ -46,9 +40,6 @@
             hold-trigger-on-release;
             require-prior-idle-ms = <150>;
         };
-    };
-
-    macros {
     };
 
     combos { compatible = "zmk,combos"; };
