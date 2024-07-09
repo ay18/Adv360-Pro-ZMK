@@ -103,7 +103,7 @@
 &none  &none             &kp AT_SIGN   &kp LEFT_BRACKET            &kp RIGHT_BRACKET            &kp PIPE   &none                                  &none           &kp AMPERSAND     &kp UNDERSCORE   &kp PLUS          &kp ASTERISK      &none                     &none
 &none  &hml LCTRL CARET  &kp EXCL      &hml LALT LEFT_PARENTHESIS  &hml LCMD RIGHT_PARENTHESIS  &kp GRAVE  &none  &none  &none      &none  &none  &none           &kp COLON         &hmr RCMD MINUS  &hmr RALT EQUAL   &kp SINGLE_QUOTE  &hmr RCTRL DOUBLE_QUOTES  &none
 &none  &kp HASH          &kp PERCENT   &kp LEFT_BRACE              &kp RIGHT_BRACE              &kp TILDE                &none      &none                         &kp DOLLAR        &kp LESS_THAN    &kp GREATER_THAN  &kp QUESTION      &kp SLASH                 &none
-&none  &none             &none         &none                       &none                                   &none  &none  &none      &none  &none  &none                             &none            &none             &none             &none                     &none
+&none  &none             &none         &none                       &none                                   &none  &none  &none      &none  &none  &mo 6                             &none            &none             &none             &none                     &none
             >;
         };
 
